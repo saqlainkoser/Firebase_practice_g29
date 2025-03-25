@@ -1,1 +1,2 @@
-1. npx create-react-app my-firebase-app
+1. Goto folder my-firebase-app and run command npm i 
+2 . To statart the server run command npm run start
