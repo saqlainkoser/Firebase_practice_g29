@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CounterProvider, { CounterContext } from './context/CounterContex';
+import FirebaseProvider from './context/Firebase';
+import ContextProvider from './context/CounterContext1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ContextProvider>
+    <App/>
+    </ContextProvider>
   </React.StrictMode>
 );
 
